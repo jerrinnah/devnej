@@ -1,0 +1,206 @@
+.section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  /* background-color: rgb(222, 222, 222); */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+}
+.title1 {
+  margin-bottom: -2.2rem;
+}
+.textBox_left {
+  padding-top: 3rem;
+  padding-left: 15rem;
+  /* background-color: blue; */
+  flex-wrap: wrap;
+}
+.textBox_right {
+  padding-top: 3rem;
+  padding-right: 15rem;
+  /* background-color: blue; */
+}
+.lowSection {
+  padding-top: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  /* background-color: aqua; */
+  display: flex;
+
+  justify-content: space-between;
+  /* align-items: center; */
+  /* background-color: blueviolet; */
+}
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  /* background-color: brown; */
+}
+.h1 {
+  font-size: 1rem;
+}
+
+.circle {
+  height: 538px;
+  width: 367px;
+  border-radius: 216px;
+  position: relative;
+  background-color: rgb(128, 128, 128);
+  /* left: 38px; */
+  /* top: 574px;  */
+}
+.thinCircle {
+  height: 604px;
+  width: 441px;
+  border-radius: 200px;
+  position: relative;
+  border: 2px solid rgb(128, 128, 128);
+}
+.circleHolder {
+  display: block;
+  /* padding: 5rem; */
+  /* background-color: brown; */
+}
+.line {
+  display: flex;
+  height: auto;
+  width: 10rem;
+  position: relative;
+  bottom: 30rem;
+  right: 2rem;
+}
+
+.image {
+  height: 604px;
+  width: 441px;
+  border-radius: 200px;
+  position: relative;
+  border: 2px solid rgb(241, 241, 241);
+}
+
+@media screen and (max-width: 480px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: rgb(218, 41, 41); */
+  }
+
+  .title {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: blue; */
+  }
+  .title1 {
+    /* margin-bottom: -2.2rem; */
+    /* background-color: bisque; */
+    display: none;
+  }
+  .textBox_left {
+    padding-top: 0;
+    padding-left: 0;
+    display: none;
+    /* background-color: rgb(27, 206, 57); */
+  }
+  .textBox_right {
+    /* padding-top: 3rem; */
+    /* padding-right: 15rem; */
+    /* background-color: blue; */
+    display: none;
+  }
+  .infoBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    /* background-color: brown; */
+  }
+
+  .lowSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10rem;
+    padding-left: 0;
+    padding-right: 0;
+    transform: scale(0.7);
+    /* flex-wrap: wrap-reverse; */
+    /* background-color: rgb(200, 14, 228); */
+  }
+
+  .h1 {
+    font-size: 0.7rem;
+  }
+
+  .circle {
+    height: 538px;
+    width: 367px;
+    border-radius: 216px;
+    position: relative;
+    background-color: rgb(128, 128, 128);
+    /* left: 38px; */
+    /* top: 574px;  */
+  }
+  .thinCircle {
+    height: 604px;
+    width: 441px;
+    border-radius: 200px;
+    position: relative;
+    border: 2px solid rgb(128, 128, 128);
+  }
+  .circleHolder {
+    display: block;
+    /* padding: 5rem; */
+    /* background-color: brown; */
+  }
+  .line {
+    display: flex;
+    height: auto;
+    width: 10rem;
+    position: relative;
+    bottom: 30rem;
+    right: 2rem;
+  }
+
+  .image {
+    height: 604px;
+    width: 441px;
+    border-radius: 200px;
+    position: relative;
+    border: 2px solid rgb(241, 241, 241);
+  }
+
+  .boxShadow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 133px;
+    width: 95px;
+    border-radius: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 8px rgb(217, 217, 217);
+  }
+  .boxHolders {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    /* margin-bottom: -4rem; */
+    /* padding-bottom: 5rem; */
+    /* background-color: blue; */
+  }
+}
