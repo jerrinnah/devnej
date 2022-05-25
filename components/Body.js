@@ -40,7 +40,7 @@ const Body = () => {
             {/* <div className={bodyStyle.circle}></div> */}
 
             <div>
-              <img className={bodyStyle.image} src="../nej.JPG" />
+              <img className={bodyStyle.image} src="../nej.jpg" />
               <img className={bodyStyle.line} src="../lines.png" />
             </div>
           </div>
