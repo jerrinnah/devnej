@@ -1,6 +1,6 @@
 import Link from "next/link";
 import navStyles from "../styles/Nav.module.css";
-import { FaBeer } from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 
 const Nav = () => {
   return (
@@ -25,6 +25,7 @@ const Nav = () => {
         <img className={navStyles.icon} src="../regular/github.svg" />
         <img className={navStyles.icon} src="../regular/instagram.svg" />
       </div>
+      <i className={navStyles.iconSVG}> <FaBars/></i>
     </nav>
   );
 };
