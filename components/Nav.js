@@ -11,13 +11,13 @@ const Nav = () => {
             <Link href="/">WORKS </Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/about">ABOUT ME</Link>
           </li>
         </ul>
       </div>
 
       <div className="nav__logo">
-        <h3>Logo </h3>
+       <img className={navStyles.iconLogo}  src="../jn.png" />
      
       </div>
       <div className={navStyles.navRight}>
